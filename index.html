@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes y Aventuras</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-5">
+        <h1>Explora el Mundo</h1>
+        <p>Descubre nuevos horizontes y vive grandes aventuras</p>
+    </header>
+
+    <section class="container py-5">
+        <h2 class="text-center">Destinos Populares</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/paris-francia.webp" class="card-img-top" alt="París">
+                    <div class="card-body">
+                        <h3 class="card-title">París, Francia</h3>
+                        <p class="card-text">Explora la Ciudad de la Luz y su rica historia cultural.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/Santorini-Grecia.webp" class="card-img-top" alt="Santorini">
+                    <div class="card-body">
+                        <h3 class="card-title">Santorini, Grecia</h3>
+                        <p class="card-text">Relájate en las impresionantes playas de Santorini.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/Machu-Picchu.jpg" class="card-img-top" alt="Machu Picchu">
+                    <div class="card-body">
+                        <h3 class="card-title">Machu Picchu, Perú</h3>
+                        <p class="card-text">Descubre las maravillas arqueológicas de Machu Picchu.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light text-center py-5">
+        <h2>Únete a la Aventura</h2>
+        <p>Descubre nuevos lugares, culturas y experiencias con nosotros.</p>
+        <a href="#contacto" class="btn btn-primary btn-lg">Contáctanos</a>
+    </section>
+
+    <section id="contacto" class="container py-5">
+        <h2 class="text-center">Contáctanos</h2>
+        <p class="text-center">¿Listo para tu próxima aventura? Ponte en contacto con nosotros.</p>
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <form>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 Viajes y Aventuras</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
